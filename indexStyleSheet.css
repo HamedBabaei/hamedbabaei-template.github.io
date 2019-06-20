@@ -13,11 +13,12 @@
 }
 
 .image{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     margin: auto;
     padding: 5px;
+    border-radius: 12px;
 }
 
 #buttons button{
@@ -52,6 +53,27 @@
     display: table-column;
     width: 200px;
     height: 200px;
+}
+
+.col-2{
+    float: left;
+    display: table-column;
+    width: 700px;
+    height: auto;
+}
+
+.pcol-1{
+    float: left;
+    display: table-column;
+    width: 10%;
+    height: 200px;
+}
+
+.pcol-2{
+    float: left;
+    display: table-column;
+    width: 90%;
+    height: auto;
 }
 
 #title-fonts em{
@@ -132,7 +154,6 @@
 }
 
 
-
 @media (max-width:768px){
     .col{
         width:280px;
@@ -140,10 +161,22 @@
     .border-lines{
         border: none;
     }
+    .pcol-2{
+        width: 400px;
+    }
+    .pcol-1{
+        width: 50px;
+    }
 }
 
 @media (min-width:768px) and (max-width: 1024px){
     .col{
         width:350px;
+    }
+    .pcol-2{
+        width: 650px;
+    }
+    .pcol-1{
+        width: 80px;
     }
 }
