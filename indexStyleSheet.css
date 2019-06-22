@@ -21,6 +21,14 @@
     border-radius: 12px;
 }
 
+.honors-logo{
+    width: 80px;
+    height: 80px;
+}
+.black-color{
+    background-color: black;
+}
+
 #buttons button{
     background-color: rgb(39, 67, 117);
     /*border: 3px solid rgb(10, 48, 48);*/
@@ -70,6 +78,20 @@
 }
 
 .pcol-2{
+    float: left;
+    display: table-column;
+    width: 90%;
+    height: auto;
+}
+
+.hcol-1{
+    float: left;
+    display: table-column;
+    width: 10%;
+    height: 100px;
+}
+
+.hcol-2{
     float: left;
     display: table-column;
     width: 90%;
@@ -167,6 +189,12 @@
     .pcol-1{
         width: 50px;
     }
+    .hcol-2{
+        width: 350px;
+    }
+    .hcol-1{
+        width: 90px;
+    }
 }
 
 @media (min-width:768px) and (max-width: 1024px){
@@ -178,5 +206,12 @@
     }
     .pcol-1{
         width: 80px;
+    }
+
+    .hcol-1{
+        width: 90px;
+    }
+    .hcol-2{
+        width: 600px;
     }
 }
