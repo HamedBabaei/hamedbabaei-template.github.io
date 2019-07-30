@@ -11,10 +11,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Hamed Babaei Giglou's Personal Website</title>
 	<script>
-		$(function(){
-			$("#ajxContent").load("exam.html p");
-			});
-
+		$("document").ready(function() {
+			getData();
+		});			
+		function getData() {
+			$("#ajxContent").load("exam.html");
+        }
+        function successFn(result) {
+            console.log("Setting result");
+            $("#ajxContent").append(result);
+        }
+        function errorFn(xhr, status, strErr) {
+            alert(strErr);
+        }
 	</script>
 </head>
 <body>
@@ -128,6 +137,7 @@
         </div>
     </div>
     <!-----------------end skills------------------>
+		<div id ="ajxContent"></div>
     <!-----------------start connect---------------->
     <div class="container-fluid padding" id="connect">
         <h3 class="lead text-center">
@@ -137,7 +147,7 @@
 
         </div>
     </div>
-	<div id ="ajxContent"></div>
+
     <!-----------------end connect------------------>
     <script src="./js/index.js"></script>
 </body>
