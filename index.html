@@ -10,7 +10,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Hamed Babaei Giglou's Personal Website</title>
-    <script src="./js/index.js"></script>
+	<script>
+		$(function(){
+			$.get("exam.txt",suc);
+			});
+			function suc(res){
+				$("#ajxContent").append(res);
+			}
+	</script>
 </head>
 <body>
     <!----------------stat navbar-------------------->
@@ -24,7 +31,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto text-center"><script>Header();</script></ul>
+                    <ul class="navbar-nav ml-auto text-center">
+                        <script>
+                            let links = ["#", "#about", "#education", "#research", "#publication", "#skills", "#connect"];
+                            let headers = ["Home", "About", "Education", "Research", "Publication", "Skills", "Connect"];
+                            for(let i = 0 ; i < links.length ; i ++){
+                                document.write("<li class='nav-item padding-right '>");
+                                document.write("<a class='nav-link text-white' href='" + links[i] + "'>" + headers[i] + "</a>" );
+                                document.write("</li>");
+                            }
+                        </script>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -122,6 +139,8 @@
 
         </div>
     </div>
+	<div id ="ajxContent"></div>
     <!-----------------end connect------------------>
+    <script src="./js/index.js"></script>
 </body>
 </html>
