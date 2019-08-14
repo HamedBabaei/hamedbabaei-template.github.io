@@ -1,0 +1,132 @@
+{
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "MacBook Air with Retina Display",
+                "price": 1099.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/1.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "MacBook Air 13.3",
+                "price": 799.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/2.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "MacBook Pro 13 Laptop",
+                "price": 499.98,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/3.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "ASUS ZenBook Pro 14 ",
+                "price": 1099.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/4.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "Apple TV",
+                "price": 39.95,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/5.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "title": "Beats Powerbeats Pro Bluetooth True wireless earphones",
+                "price": 219.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/6.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "Beats urBeats3 Earphones",
+                "price": 28.49,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/7.webp"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "Apple Earphones for iPhone 6 6s 5 5s Nano iPad",
+                "price": 5.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/8.webp"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
