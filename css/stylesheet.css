@@ -6,6 +6,9 @@ body{
 .padding-top-50{
     padding-top: 70px;
 }
+.padding-top-25{
+    padding-top: 25px;
+}
 
 .padding-bottom-50{
     padding-bottom: 50px;
@@ -39,3 +42,58 @@ footer{
     color:orange;
 }
 /* rgba(36, 37, 42, 1); */
+/*----------------header--------*/
+
+.logo{
+    height: 55px;
+    width: 55px;
+    border: 2px solid orange;
+}
+
+.logo-name {
+    color: white !important;
+    font-size: 0.9em;
+}
+.logo-name strong{
+    letter-spacing: 0.2em;
+    border-bottom: 3px solid orange;
+}
+
+.logo-name p{
+    border-bottom: 3px solid orange;
+}
+
+.nav-link{
+    letter-spacing: 0.1em;
+
+    border-bottom: 3px solid orange;
+}
+.nav-link:hover
+{
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+
+.carousel-caption{
+    padding-bottom: 400px;
+}
+
+header
+{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+
+/* .slider{
+    height: 500px;
+    width: 100%;
+} */
+
+.slider1{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../images/img-header-2.jpg');
+    background-size: 100% 600px;
+}
