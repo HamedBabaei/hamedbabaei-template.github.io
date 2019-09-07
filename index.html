@@ -12,67 +12,98 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
+    <meta name="keywords" content="computer science, machine learning, artificial intelligence, full-stack web developer">
+
+    <meta property="og:title" content="Hamed Babaei Giglou's Personal Website" />
+    <meta property="og:description" content="computer science, machine learning, artificial intelligence, full-stack web developer" />
+    <meta property="og:url" content="http://hamedbabaei.github.io" />
+    <meta property="og:image" content="./images/logo.jpg" />
 </head>
 
 <body>
     <!----------------stat navbar-------------------->
     <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <div class="row">
-                            <div class="col-2">
-                                <img src="./images/logo.jpg" class="logo rounded-circle">
-                            </div>
-                            <div class="col-10 logo-name">
-                                    <strong class="">Hamed Babaei Giglou</strong>
-                                    <p class="lead">Welcome to my personal website!</p>
-                            </div>
+            <!-- fixed-top -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./images/logo.jpg" class="logo rounded-circle">
                         </div>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto text-center ">
-                            <li class="nav-item padding-right header-links"><a class='nav-link text-white' href='#'>Home</a></li>
-                            <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>About</a></li>
-                            <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Education</a></li>
-                            <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Publication</a></li>
-                            <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Projects</a></li>
-                            <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Skills</a></li>
-                        </ul>
+                        <div class="col-10 logo-name">
+                                <strong class="">Hamed Babaei Giglou</strong>
+                                <p class="lead">Welcome to my personal website!</p>
+                        </div>
                     </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto text-center ">
+                        <li class="nav-item padding-right header-links"><a class='nav-link text-white' href='#'>Home</a></li>
+                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#about-me'>About</a></li>
+                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Education</a></li>
+                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Publication</a></li>
+                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Projects</a></li>
+                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Skills</a></li>
+                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Gallery</a></li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
-        <!----------------end navbar-------------------->
-        <!-----------------start slider----------------->
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <div class="slider1" >
-                <!-- <div class="carousel-caption">
-                    <div class="row float-left">    
-                            <div class="col-2">
-                                <img src="./images/logo.jpg" class="logo rounded-circle"> 
-                            </div>
-                            <div class="col-9 float-left">
-                                <h1 class="logo-name">Hamed Babaei Giglou</h1>
-                            </div>
-                        
-                    </div>
-                </div> -->
+            </div>
+        </nav>
+    </header>
+    <!----------------end navbar-------------------->
+    <!-----------------header pictured----------------->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <div class="slider1" ></div>
+    </div>
+    <div class="container-fluid padding-top-50" id="about-me">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <img src="./images/hamed.jpg" class="user-img">
+            </div>
+            <div class="col-md-9 col-sm-12 col-xs-12">
+                <p class="about-me">
+                    <hr>
+                    I am a first-year <strong>M.Sc. student in computer science at the University of Tabriz</strong> in the field of Soft Computing and 
+                    Artificial Intelligence. My research interests include Artificial Intelligence, Machine learning, Natural Language Processing, 
+                    and Deep Learning. 
+                    </p>
+                <p class="about-me">
+                    
+                    Currently, I am working on four research projects which three of them are related to each other.
+                    <ul>
+                        <li>In the first project, I try to make a recommender system to recommend products to users in Persian websites.</li>
+                        <li>The second project is about Question Answering System for customer services in Persian websites.</li>
+                        <li>The third project is a customized Search Engine for websites.</li>
+                        <li>The fourth project is about online Machine Translation from Persian to English and English to Persian for translating academic papers.</li>
+                    </ul>
+                    None of these projects funded or is for a specific company I run these projects based on my enthusiastic about AI. 
+                    All of these projects are big for me, but as a friend of mine said <strong>Try More not Less</strong>.
+                    <br>
+                    I am a full-stack web developer and currently, I am searching for any available job positions, so If you want to hire me 
+                    so go through my website to know me well enough to decide am I helpful for you or not, I will be happy to help you in the 
+                    best way that I can do.
+
+                    <br><br>
+                    If you have any questions please don't hesitate to contact me,<br>
+                    Have a nice day,
+                    <br>
+                    <p class="text-primary">Email: hamedbabaeigiglou[at]gmail[dot]com</p>
+                    <hr>
+                </p>
             </div>
         </div>
-        <!-----------------end slider------------------->
-    <!-- <div>
-        <a href="./web-projects/movie-info/index.html">Movie Reviews</a>
     </div>
-    <div>
-        <a href="./web-projects/calculator/index.html">Simple Calculator</a>
+
+    <div class="container padding-top-50">
+
     </div>
-    <div>
-        <a href="./web-projects/shopping-cart/index.html">Shopping Cart</a>
-    </div> -->
+    <!-----------------start footer------------------->
     <footer class="container-fluid padding-top-50 padding-bottom-50">
         <div class="row">
             <div class="col-12 text-center text-white footer-header">Hamed Babaei Giglou's Personal Website!</div>
@@ -107,8 +138,8 @@
             </div>
             <div class="col-md-3"></div>
         </div>
-            
     </footer>
+    <!-----------------start footer------------------->
     <script src="./js/main.js"></script>
 </body>
 </html>
