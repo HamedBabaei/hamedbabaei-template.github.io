@@ -129,3 +129,43 @@ header
       word-spacing: 0.2em;
       /* letter-spacing: 0.1em; */
   }
+
+
+  /*----------education-------*/
+#educ .educ-cards .university-card {
+    background: hsla(0, 0%, 100%, .2);    
+    border: 2px solid orange;
+    margin-bottom: 3rem;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+    opacity: .8/*.card-text*/
+}
+
+#educ .educ-cards .university-card .card-info {
+    background: rgba(255, 177, 47, .9);
+    padding: 3% 7%
+}
+
+#educ .educ-cards .university-card .card-info .card-name {
+    font-size: 1.1rem;
+    line-height: 110%;
+    color: #d14348
+}
+
+#educ .educ-cards .university-card .card-info .card-title {
+    font-size: 1.1rem;
+    line-height: 100%
+}
+
+#educ .educ-cards .university-card:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1
+}
+
+.univ{
+    width: 200px;
+    height: 200px;
+}
