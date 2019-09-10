@@ -24,7 +24,7 @@
 
 <body>
     <!----------------stat navbar-------------------->
-    <header>
+    <header id="home">
             <!-- fixed-top -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -47,7 +47,7 @@
                         <li class="nav-item padding-right header-links"><a class='nav-link text-white' href='#'>Home</a></li>
                         <li class="nav-item padding-right"><a class='nav-link text-white' href='#about-me'>About</a></li>
                         <li class="nav-item padding-right"><a class='nav-link text-white' href='#educ'>Education</a></li>
-                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Publication</a></li>
+                        <li class="nav-item padding-right"><a class='nav-link text-white' href='#publication'>Publication</a></li>
                         <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Projects</a></li>
                         <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Skills</a></li>
                         <li class="nav-item padding-right"><a class='nav-link text-white' href='#'>Gallery</a></li>
@@ -63,10 +63,8 @@
     </div>
     <div class="container-fluid padding-top-50" id="about-me">
         <div class="row">
-            <div class="col-md-3 col-sm-12 col-xs-12">
-                <img src="./images/hamed.jpg" class="user-img">
-            </div>
-            <div class="col-md-9 col-sm-12 col-xs-12">
+            <div class="col-md-2 col-sm-12 col-xs-12"></div>
+            <div class="col-md-8 col-sm-12 col-xs-12">
                 <hr/>
                 <p class="about-me">
                     I am a first-year <strong>M.Sc. student in computer science at the University of Tabriz</strong> in the field of Soft Computing and 
@@ -97,10 +95,11 @@
                     <hr/>
                 </p>
             </div>
+            <div class="col-md-2 col-sm-12 col-xs-12"></div>
         </div>
     </div>
 
-    <div class="padding-top-50"></div>
+    <div class="padding-top-25"></div>
     <section id="educ" class="section">
         <div class="container padding-top-25">
             <div class="educ-cards">
@@ -132,6 +131,44 @@
         </div>
     </section>
 
+    <!-----------------publication------------------->
+    <div class="container-fluid padding-top-50" id="publication">
+        <div class="row">
+            <div class="container p-5 bg bg-white text-dark border border-warning papers">
+                <div class="footer-header">Publications</div>
+                <div><num>1.</num> Salar Khayat Mirza Rasouli, <strong class="hamed">Hamed Babaei Giglou</strong>, Jafar Razmara. Topic
+                        Detection for the Persian Language News Using Signature Words and Support
+                        Vector Machines. <em>In 16 th Iranian Media Technology Exhibition and Confer-
+                        ence (2019).</em><b>(SUBMITED)</b> </div>
+
+                <div><num>2. </num> <strong class="hamed">Hamed Babaei Giglou</strong>, Mostafa Rahgouy, Taher Rahgooy, Mohammad Karami
+                        Sheykhlan and Erfan Mohammadzadeh. <a href="https://pdfs.semanticscholar.org/36e2/34728212ee57a5d814cd327402ed5d7825cf.pdf?_ga=2.221871896.1671151121.1566427489-1477812141.1566427489">Author Profiling: Bot and Gender
+                        Prediction using a Multi-Aspect Ensemble Approach</a>. <em>In CLEF 2019 Evaluation
+                        Labs and Workshop Working Notes Papers</em>. CEUR-WS.org.</div>
+
+                <div><num>3.</num> Mostafa Rahgouy,  <strong class="hamed">Hamed Babaei Giglou</strong>, Taher Rahgooy, Mohammad Karami
+                        Sheykhlan and Erfan Mohammadzadeh. <a href="https://pdfs.semanticscholar.org/de22/e8d7e7d3954fbdd7eeb3f4261725df2b1152.pdf?_ga=2.221871896.1671151121.1566427489-1477812141.1566427489">Cross-domain Authorship Attribution:
+                            Author Identification using a Multi-Aspect Ensemble Approach</a>. <em>In CLEF 2019
+                        Evaluation Labs and Workshop Working Notes Papers.</em> CEUR-WS.org.</div>
+
+                <div><num>4.</num> Mostafa Rahgouy,  <strong class="hamed">Hamed Babaei Giglou</strong>, Taher Rahgooy, Hasan Zeynali
+                        and Salar Khayat Mirza Rasouli. <a href="https://pdfs.semanticscholar.org/3966/b8a67839080cd8494dbab37dcfb84fc417c4.pdf?_ga=2.221871896.1671151121.1566427489-1477812141.1566427489">Author Masking Directed by Author's Style:
+                            Notebook for PAN at CLEF 2018</a>. <em>In CLEF 2018 Evaluation Labs and Work-
+                        shop Working Notes Papers.</em> CEUR-WS.org.</div>
+            </div>
+        </div>
+    </div>
+    <!-----------------contact------------------->    
+    <div class="container-fluid padding-top-50 padding-bottom-50 contact">
+            <div class="row">
+                <div class="col-12 text-center text-white footer-header">Contact</div>
+            </div>
+            <div class="row text-center text-white padding-top-50 footer-links">
+                <div class="container padding-2">
+                    s
+                </div>
+            </div>
+        </div>
     <!-----------------start footer------------------->
     <footer class="container-fluid padding-top-50 padding-bottom-50">
         <div class="row">
@@ -152,20 +189,19 @@
         <div class="row text-center text-light padding-top-50">
             <div class="col-md-1"></div>
             <div class="col-md-10 col-sm-12 col-xs-12">
-                <code class="lead footer-sub">© 2019 Hamed Babaei Giglou. All rights reserved. Machine Learning Engineer & Full-Stack Developer</code>
+                <code class="lead footer-sub">© 2019 Hamed Babaei Giglou. All rights reserved. Machine Learning Engineer & Full-Stack Web Developer</code>
             </div>
             <div class="col-md-1"></div>
         </div>
         <div class="row text-center text-light padding-top-25">
-            <div class="col-md-3"></div>
-            <div class="col-md-5 col-sm-12 col-xs-12">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-google"></i></a>
+            <div class="col-md-4"></div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://twitter.com/_hamed_babaei"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_hamed_babaei/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hamed-babaei-giglou-985600172/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://scholar.google.com/citations?user=Sehm6tMAAAAJ&hl=en"><i class="fab fa-google"></i></a>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-4"></div>
         </div>
     </footer>
     <!-----------------start footer------------------->
