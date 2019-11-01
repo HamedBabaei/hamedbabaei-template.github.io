@@ -40,15 +40,15 @@ function validate(gt, data) {
   if (data.length != gt.length)
     return false;
 
-  for (i in data) {
+  /*for (i in data) {
     if (data[i].length != gt[i].length) {
       return false;
     }
 
-    /*for (j in data[i])
+    for (j in data[i])
       if (data[i][j].id != gt[i][j].id) {
         return false;
-      }*/
-  }
+      }
+  }*/
   return true;
 }
